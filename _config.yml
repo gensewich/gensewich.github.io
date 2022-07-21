@@ -21,7 +21,7 @@ timezone: America/Santiago
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: Peffy                          # the main title
 
 tagline: A text-focused Jekyll theme   # it will display as the sub-title
 
@@ -29,10 +29,10 @@ description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://gensewich.github.io'
 
 github:
-  username: github_username             # change to your github username
+  username: gensewich             # change to your github username
 
 twitter:
   username: twitter_username            # change to your twitter username
@@ -48,7 +48,7 @@ social:
     - https://github.com/username       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/username
 
 google_site_verification:               # fill in to your verification string
 
@@ -73,7 +73,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [light|dark]
+theme_mode: dark  # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -83,7 +83,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://media-exp2.licdn.com/dms/image/C5603AQErBlcNwXn8Rw/profile-displayphoto-shrink_800_800/0/1516503715072?e=1663804800&v=beta&t=FNCk09VHLd3IOl90Xe7CTFIe4LVfAOpydxBd4_skmMw
 
 # boolean type, the global switch for ToC in posts.
 toc: true
