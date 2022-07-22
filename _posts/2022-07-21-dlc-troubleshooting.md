@@ -1,4 +1,3 @@
-
 ---
 title: QRadar DLC Troublehooting
 date: 2022-07-21 10:00:00
@@ -17,7 +16,7 @@ tags: [qradar, dlc]     # TAG names should always be lowercase
 TCPDUMP to see if the networking is OK and you are delivering the logs to the DLC box. In my setup the
 IP address of the DLC box is 172.16.60.77 and the logs comes from 172.16.60.10. You may need to install tcpdump by issuing 
 
-````
+````shell
 yum install tcpdump
 ````
 
@@ -33,7 +32,7 @@ tcpdump -i ens33 -n "src host 172.16.60.10 and dst host 172.16.60.77"
 
 Check your ports. So from the DLC machie issue this command:
 
-````
+````shell
 netstat -tulnp | grep 32500
 netstat -putona | grep 32500
 ````
@@ -50,7 +49,7 @@ You should see something like this:
 
 Let us make sure your *firewall setting* are OK. So from the DLC machine issue this command:
 
-````
+````shell
 firewall-cmd --list-all
 ````
 
@@ -78,7 +77,7 @@ public (active)
 
 Command to determine if the logs are getting into the DLC service. So from the DLC machine issue this command:
 
-````
+````shell
  /opt/ibm/si/services/dlc/current/script/jmx.sh -p 7787 "com.q1labs.sem:application=dlc.dlc,type=destinations,id=SECStoreForwardDestination" EventsSeen
 ````
 
