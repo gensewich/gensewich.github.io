@@ -86,7 +86,7 @@ Command to determine if the logs are getting into the DLC service. So from the D
 You should see something like this:
 
 
-````output
+````
 com.q1labs.sem:application=dlc.dlc,type=destinations,id=SECStoreForwardDestination
 ----------------------------------------------------------------------------------
 EventsSeen: 870 
@@ -104,7 +104,7 @@ Command to determine if the logs are getting out of the DLC service. So from the
 
 You should see something like this:
 
-````output
+````
 com.q1labs.sem:application=dlc.dlc,type=sources,name=Syslog Source
 ------------------------------------------------------------------
 Posted: 870
@@ -114,7 +114,7 @@ Posted: 870
 
 Command to see if the logs are getting to QRadar from DLC. So from the QRadar machine issue this command
 
-````
+````shell
 /opt/qradar/support/jmx.sh -p 7787 "com.q1labs.sem:application=ecs-ec-ingress.ecs-ec-ingress,type=sources,name=IBMQRadarDLC Source" Posted
 ````
 

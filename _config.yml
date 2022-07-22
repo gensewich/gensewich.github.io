@@ -21,12 +21,12 @@ timezone: America/Santiago
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Peffy                          # the main title
+title: IBM Security                           # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: QRadar / Guardium   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  IBM Security QRadar and Guardium blog
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://gensewich.github.io'
@@ -73,7 +73,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark  # [light|dark]
+theme_mode:  # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -83,7 +83,7 @@ theme_mode: dark  # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://media-exp2.licdn.com/dms/image/C5603AQErBlcNwXn8Rw/profile-displayphoto-shrink_800_800/0/1516503715072?e=1663804800&v=beta&t=FNCk09VHLd3IOl90Xe7CTFIe4LVfAOpydxBd4_skmMw
+avatar: assets/img/IBM_Security_logo_grd_color_RGB.png
 
 # boolean type, the global switch for ToC in posts.
 toc: true
